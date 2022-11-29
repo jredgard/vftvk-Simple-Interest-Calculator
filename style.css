@@ -1,4 +1,27 @@
-body {background-color:tan;}
-h1{color:green;}
+h1{color:grey;font-family:verdana;}
+body{background-color:black;font-family:arial;color:white;}
+
+/*main div is moved by % to the middle and top. Then translated to center it since it would've been in the bottom right area*/
+.maindiv {                  
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* added a way to just move the labels a bit up to make it more centered.*/
+label{                              
+    width: 100px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+
 
 
